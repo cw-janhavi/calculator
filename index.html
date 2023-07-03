@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Neumorphic Calculator</title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="calculator neumorphic">
+                <div class="heading">
+                    <p id="calculator-title">My Calculator</p>
+                    <label class="switch neumorphic">
+                        <input class="checkbox-toggle" type="checkbox">
+                        <span class="slider neumorphic round"></span>
+                    </label>
+                </div>
+                <div class="display-text in-neumorphic">
+                    <p class="display-numbers previous-text">prev</p>
+                    <p class="display-numbers recent-text">recent</p>
+                </div>
+                <div class="numbers-container">
+                    <div class="numbers-column">
+                        <button class="num-button clear-all-button neumorphic" value="AC">AC</button>
+                        <button class="num-button numeric-button neumorphic" value="7">7</button>
+                        <button class="num-button numeric-button neumorphic" value="4">4</button>
+                        <button class="num-button numeric-button neumorphic" value="1">1</button>
+                        <button class="num-button decimal-point-button neumorphic" value=".">.</button>
+                    </div>
+
+                    <div class="numbers-column">
+                        <button class="num-button multiply-button neumorphic" value="*">x</button>
+                        <button class="num-button numeric-button neumorphic" value="8">8</button>
+                        <button class="num-button numeric-button neumorphic" value="5">5</button>
+                        <button class="num-button numeric-button neumorphic" value="2">2</button>
+                        <button class="num-button numeric-button neumorphic" value="0">0</button>
+                    </div>
+
+                    <div class="numbers-column">
+                        <button class="num-button divide-button neumorphic" value="/">/</button>
+                        <button class="num-button numeric-button neumorphic" value="9">9</button>
+                        <button class="num-button numeric-button neumorphic" value="6">6</button>
+                        <button class="num-button numeric-button neumorphic" value="3">3</button>
+                        <button class="num-button modulus-button neumorphic" value="%">%</button>
+                    </div>
+
+                    <div class="numbers-column-last">
+                        <button class="num-button backspace-button neumorphic" value="back">back</button>
+                        <button class="num-button minus-button neumorphic" value="-">-</button>
+                        <button class="num-button plus-button neumorphic" value="+">+</button>
+                        <button class="num-button equal-to-button neumorphic-dark" value="=">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
